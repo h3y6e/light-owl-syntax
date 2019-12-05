@@ -1,0 +1,19 @@
+{
+  "name": "light-owl-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "Night Owl Light (Light Owl) Theme for Atom",
+  "keywords": [
+    "night",
+    "owl",
+    "light",
+    "vscode",
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/5ebec/light-owl-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
