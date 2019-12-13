@@ -1,46 +1,43 @@
 @import "colors";
 
-// This defines all syntax variables that syntax themes must implement when they
-// include a syntax-variables.less file.
-
 // General colors
-@syntax-text-color: @gray;
-@syntax-cursor-color: #2AA298;
-@syntax-selection-color: @very-light-gray;
-@syntax-selection-flash-color: #69c;
-@syntax-background-color: @snow;
+@syntax-text-color:            @gray;
+@syntax-cursor-color:          @java;
+@syntax-selection-color:       @very-light-gray;
+@syntax-selection-flash-color: @java;
+@syntax-background-color:      @snow;
 
 // Guide colors
-@syntax-wrap-guide-color: @white-smoke;
-@syntax-indent-guide-color: @white-smoke;
+@syntax-wrap-guide-color:          @white-smoke;
+@syntax-indent-guide-color:        @white-smoke;
 @syntax-invisible-character-color: @white-smoke;
 
 // For find and replace markers
-@syntax-result-marker-color: @very-light-gray;
-@syntax-result-marker-color-selected: @very-light-gray;
+@syntax-result-marker-color:          @very-light-gray;
+@syntax-result-marker-color-selected: @java;
 
 // Gutter colors
-@syntax-gutter-text-color: @gray;
-@syntax-gutter-text-color-selected: black;
-@syntax-gutter-background-color: @snow;
+@syntax-gutter-text-color:                @gray;
+@syntax-gutter-text-color-selected:       black;
+@syntax-gutter-background-color:          @snow;
 @syntax-gutter-background-color-selected: @very-light-gray;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-renamed: @blue;
-@syntax-color-added: @medium-turquoise;
+@syntax-color-renamed:  @malibu;
+@syntax-color-added:    @medium-turquoise;
 @syntax-color-modified: @maya-blue;
-@syntax-color-removed: @bittersweet;
+@syntax-color-removed:  @bittersweet;
 
 // For language entity colors
-@syntax-color-variable: #0c969b;
-@syntax-color-constant: #bc5454;
-@syntax-color-property: #403f53;
-@syntax-color-value: #D29B67;
-@syntax-color-function: #4876d6;
-@syntax-color-method: @syntax-color-function;
-@syntax-color-class: #E5C17C;
-@syntax-color-keyword: #a431c4;
-@syntax-color-tag: #b72424;
+@syntax-color-variable:  @eastern-blue;
+@syntax-color-constant:  @fuzzy-wuzzy-brown;
+@syntax-color-property:  @gun-powder;
+@syntax-color-value:     #D29B67;
+@syntax-color-function:  #4876d6;
+@syntax-color-method:    @syntax-color-function;
+@syntax-color-class:     #E5C17C;
+@syntax-color-keyword:   #a431c4;
+@syntax-color-tag:       #b72424;
 @syntax-color-attribute: @syntax-color-function;
-@syntax-color-import: #994cc3;
-@syntax-color-snippet: #994cc3;
+@syntax-color-import:    @medium-violet-red;
+@syntax-color-snippet:   @medium-violet-red;
