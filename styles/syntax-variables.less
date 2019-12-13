@@ -1,7 +1,7 @@
 @import "colors";
 
 // General colors
-@syntax-text-color:            @gray;
+@syntax-text-color:            @gun-powder;
 @syntax-cursor-color:          @java;
 @syntax-selection-color:       @very-light-gray;
 @syntax-selection-flash-color: @java;
@@ -17,8 +17,8 @@
 @syntax-result-marker-color-selected: @java;
 
 // Gutter colors
-@syntax-gutter-text-color:                @gray;
-@syntax-gutter-text-color-selected:       black;
+@syntax-gutter-text-color:                @gun-powder;
+@syntax-gutter-text-color-selected:       @black;
 @syntax-gutter-background-color:          @snow;
 @syntax-gutter-background-color-selected: @very-light-gray;
 
@@ -41,3 +41,6 @@
 @syntax-color-attribute: @syntax-color-function;
 @syntax-color-import:    @medium-violet-red;
 @syntax-color-snippet:   @medium-violet-red;
+
+// Custom variables
+@syntax-cursor-line: fade(@gun-powder, 5%);
