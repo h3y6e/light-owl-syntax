@@ -1,7 +1,7 @@
 {
   "name": "light-owl-syntax",
   "theme": "syntax",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "🦉Light Owl (Night Owl Light) Syntax theme for Atom",
   "keywords": [
     "night",
