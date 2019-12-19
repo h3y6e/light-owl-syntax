@@ -1,0 +1,37 @@
+.syntax--css {
+  .syntax--entity.syntax--name.syntax--tag {
+    color: @contessa;
+    font-style:normal;
+  }
+
+  .syntax--punctuation {
+    &.syntax--definition.syntax--comment {
+      color: @rock-blue;
+    }
+
+    &.syntax--bracket {
+      color: @gun-powder;
+    }
+  }
+
+  .syntax--property-name {
+    color: @eastern-blue;
+  }
+
+  .syntax--support {
+    &.syntax--constant {
+      color: @contessa;
+
+      &.syntax--font-name,
+      &.syntax--color,
+      &.syntax--parity,
+      &.syntax--media {
+        color: @eastern-blue;
+      }
+    }
+
+    &.syntax--function {
+      color: @royal-blue;
+    }
+  }
+}
