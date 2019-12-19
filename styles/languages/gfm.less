@@ -1,0 +1,72 @@
+.syntax--markup {
+  &.syntax--bold {
+    color: @royal-blue;
+    font-weight: bold;
+  }
+
+  &.syntax--changed {
+    color: @perano;
+  }
+
+  &.syntax--deleted {
+    color: @sunset-orange;
+  }
+
+  &.syntax--italic {
+    color: @deep-liac;
+    font-style: italic;
+  }
+
+  &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+    color: @royal-blue;
+  }
+
+  &.syntax--inserted {
+    color: @royal-blue;
+    font-style: italic;
+  }
+
+  &.syntax--list {
+    color: @royal-blue;
+  }
+
+  &.syntax--quote {
+    color: @waikawa-grey;
+    font-style: italic;
+  }
+
+  &.syntax--raw {
+    color: @eastern-blue;
+  }
+
+  &.syntax--underline.syntax--link {
+    color: @tickle-me-pink;
+  }
+}
+
+.syntax--entity.syntax--gfm {
+  color: @gun-powder;
+}
+
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+  &.syntax--heading {
+    color: @royal-blue;
+  }
+}
+
+.syntax--punctuation.syntax--definition {
+  &.syntax--begin.syntax--gfm,
+  &.syntax--end.syntax--gfm {
+    color: @royal-blue;
+  }
+}
+
+.syntax--quote.syntax--gfm {
+  color: @waikawa-grey;
+  font-style: italic;
+}
+
+.syntax--list.syntax--gfm {
+  color: @royal-blue;
+}
