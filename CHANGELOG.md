@@ -1,3 +1,8 @@
+## 0.3.0
+ - Added support for CSS and Less
+ - fix selection color
+ - fix invisible character color
+
 ## 0.2.0
  - Added support for GitHub Markdown
 
