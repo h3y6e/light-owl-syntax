@@ -31,18 +31,27 @@
 
   .syntax--regexp {
     font-style: italic;
-    .syntax--string,
+    .syntax--string {
+      color: @malibu;
+      &.syntax--regexp {
+        color: @royal-blue;
+        font-style: normal;
+      }
+    }
+
     .syntax--punctuation {
       color: @malibu;
+      font-style: normal;
     }
+
     .syntax--operator {
       color: @gun-powder;
       font-style: normal;
     }
+
     .syntax--constant.syntax--character {
       color: @deep-liac;
     }
-
   }
 
 
