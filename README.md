@@ -9,5 +9,5 @@ $ apm install light-owl-syntax
 
 ## Screenshots
 ![js sample code](./screenshots/js.png)
-![screenshot2](./screenshots/gfm-less-python-js.png)
-The font used in the screenshot is Fira Code.
+![gfm, less, python, and js sample code](./screenshots/gfm-less-python-js.png)
+The font used in screenshots is [Fira Code](https://github.com/tonsky/FiraCode).
