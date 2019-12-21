@@ -1,5 +1,5 @@
 ## 0.5.0
-- Added support for Python
+- Added support for Python and JavaScript
 
 ## 0.4.0
 - Added support for Julia

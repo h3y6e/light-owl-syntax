@@ -1,0 +1,52 @@
+.syntax--js {
+  .syntax--variable {
+    &.syntax--parameter.syntax--function {
+      color: @gun-powder;
+    }
+
+    &.syntax--other.syntax--object.syntax--property {
+      color: @deep-liac;
+
+      &.syntax--unquoted {
+        color: @eastern-blue;
+        font-style: normal;
+      }
+    }
+
+    &.syntax--dom {
+      color: @eastern-blue;
+    }
+  }
+
+  .syntax--storage {
+    &.syntax--type {
+      font-style: normal;
+    }
+
+    &.syntax--modifier {
+      color: @eastern-blue;
+      font-style: normal;
+    }
+  }
+
+  .syntax--regexp {
+    font-style: italic;
+    .syntax--string,
+    .syntax--punctuation {
+      color: @malibu;
+    }
+    .syntax--operator {
+      color: @gun-powder;
+      font-style: normal;
+    }
+    .syntax--constant.syntax--character {
+      color: @deep-liac;
+    }
+
+  }
+
+
+  .syntax--meta.syntax--delimiter {
+    color: @deep-liac;
+  }
+}
