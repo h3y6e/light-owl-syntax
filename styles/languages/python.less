@@ -1,0 +1,27 @@
+.syntax--python {
+  .syntax--storage.syntax--type {
+    font-style: normal;
+  }
+
+  .syntax--variable {
+    &.syntax--parameter.syntax--function {
+      color: @eastern-blue;
+    }
+
+    &.syntax--other.syntax--object.syntax--property {
+      color: @royal-blue;
+      font-style: normal;
+    }
+  }
+
+  .syntax--constant.syntax--language {
+    color: @fuzzy-wuzzy-brown;
+  }
+
+  .syntax--meta.syntax--embedded {
+    color: @royal-blue;
+    .syntax--punctuation {
+      color: @royal-blue;
+    }
+  }
+}
