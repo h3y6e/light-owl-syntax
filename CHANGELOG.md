@@ -1,3 +1,7 @@
+## 0.6.0
+- Added two screenshots to README.md
+- Small adjustment
+
 ## 0.5.0
 - Added support for Python, JavaScript, and TypeScript
 
@@ -6,8 +10,8 @@
 
 ## 0.3.0
 - Added support for CSS and Less
-- fix selection color
-- fix invisible character color
+- Fixed selection color
+- Fixed invisible character color
 
 ## 0.2.0
 - Added support for GitHub Markdown
