@@ -359,10 +359,19 @@ atom-text-editor {
   }
 
   &.syntax--raw {
-    color: @eastern-blue;
+    color: @royal-blue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: @gun-powder;
+    border-radius: 3px 3px 3px 3px;    /* 囲い四角の四隅に丸みをつける  */
   }
 
   &.syntax--underline.syntax--link {
     color: @tickle-me-pink;
+    text-decoration: underline;
+  }
+
+  &.syntax--strike {
+    text-decoration: line-through;
   }
 }
