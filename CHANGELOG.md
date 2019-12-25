@@ -1,3 +1,6 @@
+## 0.6.1
+- Fixed an issue where breakpoints get cut off when using Juno on Ubuntu
+
 ## 0.6.0
 - Added two screenshots to README.md
 - Small adjustment
