@@ -375,3 +375,17 @@ atom-text-editor {
     text-decoration: line-through;
   }
 }
+
+// for markdown-cell-highlight package
+.markdown-cell-highlight {
+  &.line {
+    background-color: fade(@white-smoke-2, 50%);
+    .cursor-line {
+      background-color: @syntax-cursor-line;
+    }
+  }
+
+  &.line-number {
+    background-color: @syntax-background-color;
+  }
+}
