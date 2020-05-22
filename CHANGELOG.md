@@ -1,3 +1,6 @@
+## 0.7.0
+- Supported [atom markdown-cell-highlight package](https://atom.io/packages/markdown-cell-highlight)
+
 ## 0.6.1
 - Fixed an issue where breakpoints get cut off when using Juno on Ubuntu
 
